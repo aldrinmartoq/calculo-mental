@@ -2,10 +2,12 @@
   "name": "calculo-mental",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://aldrinmartoq.github.io/calculo-mental/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,6 +19,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.2.3",
     "canvas-confetti": "^1.6.0",
+    "gh-pages": "^5.0.0",
     "pug": "^3.0.2",
     "vue": "^3.2.47"
   },
